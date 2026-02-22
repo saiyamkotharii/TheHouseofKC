@@ -36,7 +36,7 @@ export const metadata = {
     images: ['https://thehouseofkc.com/og-image.jpg'],
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'omSIrPqdHp1CGbHv8_XBySboV3uvMVMlK1cr-Xbryzw',
   },
 }
 
