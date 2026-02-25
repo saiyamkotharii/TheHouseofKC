@@ -3,7 +3,7 @@ export const metadata = {
 
   title: {
     default:
-      'TheHouseofKC – Bespoke Heirloom Jewelry by Santosh Kumar Choraria | Bangalore',
+      'TheHouseofKC – Bespoke Heirloom Jewelry by Shree Santosh Kumar Ji Choraria | Bangalore',
     template: '%s | TheHouseofKC',
   },
   icons: {
@@ -13,18 +13,18 @@ export const metadata = {
   },
 
   description:
-    'TheHouseofKC is a tribute to Santosh Kumar Choraria’s lifelong passion for jewelry craftsmanship. Exclusive, tailor-made heirloom jewelry crafted for those who build, preserve, and pass on lasting legacies. Premium handcrafted men’s jewelry in Bangalore, India.',
+    'TheHouseofKC is a tribute to Shree Santosh Kumar Ji Choraria’s lifelong passion for jewelry craftsmanship. Exclusive, tailor-made heirloom jewelry crafted for those who build, preserve, and pass on lasting legacies. Premium handcrafted jewelry in Bangalore, India.',
 
   keywords: [
     'TheHouseofKC',
     'Santosh Kumar Choraria',
     'heirloom jewelry India',
     'bespoke jewelry Bangalore',
-    'men’s jewelry Bangalore',
+    'jewelry Bangalore',
     'premium jewelry India',
     'handcrafted jewelry',
     'custom jewelry Bangalore',
-    'luxury jewelry for men',
+    'luxury jewelry',
     'Bangalore jeweler',
   ],
 
@@ -46,9 +46,9 @@ export const metadata = {
 
   openGraph: {
     title:
-      'TheHouseofKC – Bespoke Heirloom Jewelry by Santosh Kumar Choraria',
+      'TheHouseofKC – Bespoke Heirloom Jewelry by Shree Santosh Kumar Ji Choraria',
     description:
-      'Exclusive tailor-made heirloom jewelry by TheHouseofKC, honoring Santosh Kumar Choraria’s legacy. Crafted for those who build, preserve, and pass on timeless legacies.',
+      'Exclusive tailor-made heirloom jewelry by TheHouseofKC, honoring Shree Santosh Kumar Ji Choraria’s legacy. Crafted for those who build, preserve, and pass on timeless legacies.',
     url: 'https://thehouseofkc.com',
     siteName: 'TheHouseofKC',
     locale: 'en_IN',
@@ -67,7 +67,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'TheHouseofKC – Bespoke Heirloom Jewelry',
     description:
-      'Exclusive heirloom jewelry crafted to preserve legacy and identity. TheHouseofKC by Santosh Kumar Choraria.',
+      'Exclusive heirloom jewelry crafted to preserve legacy and identity. TheHouseofKC by Shree Santosh Kumar Ji Choraria.',
     images: ['https://thehouseofkc.com/og-image.jpg'],
   },
 
