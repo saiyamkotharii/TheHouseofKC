@@ -1,21 +1,54 @@
 export const metadata = {
-  title: 'TheHouseofKC | Premium Men\'s Jewelry by Santosh Kumar Choraria | Bangalore',
-  description: 'TheHouseofKC - A tribute to Santosh Kumar Choraria\'s lifelong passion for jewelry craftsmanship. Premium handcrafted jewelry for men in Bangalore, India. From gemstones to finished art, quality built on substance.',
-  keywords: 'TheHouseofKC, Santosh Kumar Choraria, men\'s jewelry Bangalore, premium jewelry India, handcrafted jewelry, custom jewelry Bangalore, luxury jewelry for men, silver jewelry India, bespoke jewelry, Bangalore jeweler',
+  metadataBase: new URL('https://thehouseofkc.com'),
+
+  title: {
+    default:
+      'TheHouseofKC – Bespoke Heirloom Jewelry by Santosh Kumar Choraria | Bangalore',
+    template: '%s | TheHouseofKC',
+  },
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
+
+  description:
+    'TheHouseofKC is a tribute to Santosh Kumar Choraria’s lifelong passion for jewelry craftsmanship. Exclusive, tailor-made heirloom jewelry crafted for those who build, preserve, and pass on lasting legacies. Premium handcrafted men’s jewelry in Bangalore, India.',
+
+  keywords: [
+    'TheHouseofKC',
+    'Santosh Kumar Choraria',
+    'heirloom jewelry India',
+    'bespoke jewelry Bangalore',
+    'men’s jewelry Bangalore',
+    'premium jewelry India',
+    'handcrafted jewelry',
+    'custom jewelry Bangalore',
+    'luxury jewelry for men',
+    'Bangalore jeweler',
+  ],
+
   authors: [{ name: 'TheHouseofKC' }],
   creator: 'TheHouseofKC',
   publisher: 'TheHouseofKC',
+
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
     },
   },
+
   openGraph: {
-    title: 'TheHouseofKC | Premium Men\'s Jewelry by Santosh Kumar Choraria',
-    description: 'Honoring the artistic legacy of Santosh Kumar Choraria. Premium handcrafted jewelry for the modern man in Bangalore, India.',
+    title:
+      'TheHouseofKC – Bespoke Heirloom Jewelry by Santosh Kumar Choraria',
+    description:
+      'Exclusive tailor-made heirloom jewelry by TheHouseofKC, honoring Santosh Kumar Choraria’s legacy. Crafted for those who build, preserve, and pass on timeless legacies.',
     url: 'https://thehouseofkc.com',
     siteName: 'TheHouseofKC',
     locale: 'en_IN',
@@ -29,16 +62,23 @@ export const metadata = {
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'TheHouseofKC | Premium Men\'s Jewelry',
-    description: 'Handcrafted premium jewelry for men. A legacy of Santosh Kumar Choraria.',
+    title: 'TheHouseofKC – Bespoke Heirloom Jewelry',
+    description:
+      'Exclusive heirloom jewelry crafted to preserve legacy and identity. TheHouseofKC by Santosh Kumar Choraria.',
     images: ['https://thehouseofkc.com/og-image.jpg'],
   },
+
   verification: {
     google: 'omSIrPqdHp1CGbHv8_XBySboV3uvMVMlK1cr-Xbryzw',
   },
-}
+
+  alternates: {
+    canonical: 'https://thehouseofkc.com',
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -47,9 +87,8 @@ export default function RootLayout({ children }) {
         <script src="https://cdn.tailwindcss.com"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <link rel="canonical" href="https://thehouseofkc.com" />
       </head>
       <body className="bg-white text-black">{children}</body>
     </html>
-  )
+  );
 }

@@ -119,7 +119,7 @@ const JewelryWebsite = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">About TheHouseofKC</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">About The House of KC</h2>
           <div className="w-20 sm:w-24 h-1 bg-black mx-auto mb-6 sm:mb-8"></div>
         </div>
 
@@ -141,11 +141,7 @@ const JewelryWebsite = () => {
             </p>
 
             <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-4 sm:mb-6 leading-relaxed">
-              Our collections are inspired by modern masculinity, combining timeless elegance with contemporary design. From minimalist rings to bold chain bracelets, every item represents quality craftsmanship that lasts a lifetime.
-            </p>
-            
-            <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
-              Made for men who appreciate authenticity, refuse to compromise on quality, and understand that true style is built on substance.
+              Exclusive tailored made heirloom pieces - crafted for those you build, preserve and pass on legacies
             </p>
           </div>
           
