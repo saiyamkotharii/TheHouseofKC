@@ -26,7 +26,7 @@ const JewelryWebsite = () => {
               />
             </div>
             <span className="hidden sm:inline-block ml-3 text-xl sm:text-2xl font-bold tracking-wider transition-all duration-300 group-hover:tracking-widest">
-              TheHouseofKC
+              The House of KC
             </span>
           </div>
           
@@ -63,7 +63,7 @@ const JewelryWebsite = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">TheHouseofKC</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">The House of KC</h3>
             <p className="text-gray-400 text-sm sm:text-base">A legacy of artistry and craftsmanship.</p>
           </div>
           
@@ -99,7 +99,7 @@ const JewelryWebsite = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400 text-xs sm:text-sm">
-          <p>&copy; 2026 TheHouseofKC Jewelry. All rights reserved.</p>
+          <p>&copy; 2026 The House of KC Jewelry. All rights reserved.</p>
         </div>
       </div>
     </footer>
@@ -130,8 +130,8 @@ const JewelryWebsite = () => {
             </h3>
 
             <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-4 sm:mb-6 leading-relaxed">
-              At TheHouseofKC, every creation is a tribute to the lifelong passion and artistic mastery of 
-              <span className="font-semibold"> Santosh Kumar Choraria</span>. 
+              At The House of KC, every creation is a tribute to the lifelong passion and artistic mastery of 
+              <span className="font-semibold"> Shree Santosh Kumar Ji Choraria</span>. 
               What began as a deep love for gemstones and design grew into a legacy built on patience, precision, and integrity.
             </p>
 
@@ -141,7 +141,7 @@ const JewelryWebsite = () => {
             </p>
 
             <p className="text-gray-700 text-base sm:text-lg md:text-xl mb-4 sm:mb-6 leading-relaxed">
-              Exclusive tailored made heirloom pieces - crafted for those you build, preserve and pass on legacies
+              Bespoke heirloom treasures - crafted for those who build, protect, and bequeath a legacy.
             </p>
           </div>
           
@@ -181,7 +181,7 @@ const JewelryWebsite = () => {
           <MessageCircle className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-6 text-black" />
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">Have a Query?</h2>
           <p className="text-gray-600 text-lg sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto">
-            We're here to help bring your vision to life. Share your requirements with us, and our team will get back to you within 24 hours.
+            We are here to help bring your vision to life. Share your requirements with us, and our team will get back to you within 24 hours.
           </p>
           <a
             href="https://forms.gle/eCYtvqB3vKrYphBM7"
@@ -205,7 +205,7 @@ const JewelryWebsite = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">Get in Touch</h1>
           <p className="text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto">
-            Connect with The House of KC. We're here to answer your questions.
+            Connect with The House of KC.
           </p>
         </div>
 
@@ -273,7 +273,7 @@ const JewelryWebsite = () => {
         <p className="text-xs sm:text-sm text-gray-500">Last updated: January 3, 2026</p>
         
         <h2 className="text-xl sm:text-2xl font-semibold mt-6 sm:mt-8 mb-3 sm:mb-4">Introduction</h2>
-        <p>TheHouseofKC Jewelry ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p>
+        <p>The House of KC Jewelry ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p>
         
         <h2 className="text-xl sm:text-2xl font-semibold mt-6 sm:mt-8 mb-3 sm:mb-4">Information We Collect</h2>
         <p>We collect information that you provide directly to us, including:</p>
@@ -334,10 +334,10 @@ const JewelryWebsite = () => {
         <p>We offer a 30-day return policy on most products. Items must be unused and in original packaging. Custom-made jewelry may not be eligible for returns. Please contact us at contact@thehouseofkc.com to initiate a return.</p>
         
         <h2 className="text-xl sm:text-2xl font-semibold mt-6 sm:mt-8 mb-3 sm:mb-4">Intellectual Property</h2>
-        <p>All content on this website, including text, graphics, logos, and images, is the property of TheHouseofKC Jewelry and protected by copyright laws. You may not reproduce, distribute, or use any content without our written permission.</p>
+        <p>All content on this website, including text, graphics, logos, and images, is the property of The House of KC Jewelry and protected by copyright laws. You may not reproduce, distribute, or use any content without our written permission.</p>
         
         <h2 className="text-xl sm:text-2xl font-semibold mt-6 sm:mt-8 mb-3 sm:mb-4">Limitation of Liability</h2>
-        <p>TheHouseofKC Jewelry shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of our website or products.</p>
+        <p>The House of KC Jewelry shall not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of our website or products.</p>
         
         <h2 className="text-xl sm:text-2xl font-semibold mt-6 sm:mt-8 mb-3 sm:mb-4">Governing Law</h2>
         <p>These terms shall be governed by and construed in accordance with the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Mumbai, Maharashtra.</p>
