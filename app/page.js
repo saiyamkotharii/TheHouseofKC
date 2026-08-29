@@ -195,13 +195,15 @@ const JewelryWebsite = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="order-2 lg:order-1 relative group">
-              <div className="absolute -inset-3 border border-[#c9a560]/30 -z-0 hidden lg:block"></div>
-              <img
-                src="/polki.jpeg"
-                alt="Craftsmanship at The House of KC"
-                className="relative z-10 w-full h-72 sm:h-96 lg:h-[520px] object-cover transition duration-500 group-hover:scale-[1.02]"
-              />
-            </div>
+  <div className="absolute -inset-3 border border-[#c9a560]/30 -z-0 hidden lg:block"></div>
+  <div className="relative z-10 w-full h-72 sm:h-96 lg:h-[520px] bg-[#0d0b08] flex items-center justify-center overflow-hidden">
+    <img
+      src="/polki.jpeg"
+      alt="Craftsmanship at The House of KC"
+      className="w-full h-full object-contain transition duration-500 group-hover:scale-[1.02]"
+    />
+  </div>
+</div>
             <div className="order-1 lg:order-2">
               <p className="text-xs tracking-[0.25em] uppercase text-[#c9a560] mb-4">Our Promise</p>
               <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#f2ead9] mb-6 leading-tight">
