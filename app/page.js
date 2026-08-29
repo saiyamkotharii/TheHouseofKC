@@ -125,7 +125,7 @@ const JewelryWebsite = () => {
       {/* HERO */}
       <div
         className="relative min-h-screen w-full bg-cover bg-center pt-36 sm:pt-40 pb-20 flex items-center"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=1920&h=1200&fit=crop')" }}
+        style={{ backgroundImage: "url('/image.png')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/40"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -138,10 +138,10 @@ const JewelryWebsite = () => {
             </h1>
             <div className="w-16 h-px bg-[#c9a560] mb-6"></div>
             <p className="text-[#d8cfbd] text-base sm:text-lg leading-relaxed mb-4">
-              A tribute to a lifelong passion and artistic mastery — crafted with patience, precision, and integrity.
+              A tribute to a lifelong passion and artistic mastery - crafted with patience, precision, and integrity.
             </p>
             <p className="text-[#b8b0a0] text-sm sm:text-base leading-relaxed mb-10 max-w-xl">
-              Bespoke heirloom treasures, handcrafted in Bangalore — for those who build, protect, and bequeath a legacy.
+              Bespoke heirloom treasures, handcrafted in Bangalore - for those who build, protect, and bequeath a legacy.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -197,7 +197,7 @@ const JewelryWebsite = () => {
             <div className="order-2 lg:order-1 relative group">
               <div className="absolute -inset-3 border border-[#c9a560]/30 -z-0 hidden lg:block"></div>
               <img
-                src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=900&h=1000&fit=crop"
+                src="/polki.jpeg"
                 alt="Craftsmanship at The House of KC"
                 className="relative z-10 w-full h-72 sm:h-96 lg:h-[520px] object-cover transition duration-500 group-hover:scale-[1.02]"
               />
@@ -212,10 +212,10 @@ const JewelryWebsite = () => {
                 At The House of KC, every creation is a tribute to the lifelong passion and artistic mastery of <span className="text-[#c9a560]">Shree Santosh Kumar Ji Choraria</span>. What began as a deep love for gemstones and design grew into a legacy built on patience, precision, and integrity.
               </p>
               <p className="text-[#c9c0af] text-base sm:text-lg leading-relaxed mb-5">
-                Each piece reflects his belief that jewelry is not just an accessory but a personal expression of identity and emotion — from the careful selection of raw stones to the final handcrafted detailing.
+                Each piece reflects his belief that jewelry is not just an accessory but a personal expression of identity and emotion. From the careful selection of raw stones to the final handcrafted detailing.
               </p>
               <p className="text-[#c9c0af] text-base sm:text-lg leading-relaxed">
-                Bespoke heirloom treasures — crafted for those who build, protect, and bequeath a legacy.
+                Bespoke heirloom treasures - crafted for those who build, protect, and bequeath a legacy.
               </p>
             </div>
           </div>
@@ -227,7 +227,7 @@ const JewelryWebsite = () => {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-4xl sm:text-5xl font-serif text-[#c9a560]/60 leading-none">&ldquo;</span>
           <p className="font-serif text-xl sm:text-2xl md:text-3xl text-[#e8e0d0] leading-relaxed -mt-4">
-            Jewelry is not just an accessory — it is a personal expression of identity and emotion.
+            Jewelry is not just an accessory, it is a personal expression of identity and emotion.
           </p>
           <p className="text-xs tracking-[0.2em] uppercase text-[#c9a560] mt-6">Shree Santosh Kumar Ji Choraria</p>
         </div>
