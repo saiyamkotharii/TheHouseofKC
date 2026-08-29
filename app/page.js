@@ -197,7 +197,7 @@ const JewelryWebsite = () => {
             <div className="order-2 lg:order-1 relative group">
               <div className="absolute -inset-3 border border-[#c9a560]/30 -z-0 hidden lg:block"></div>
               <img
-                src="/polki.jpg"
+                src="/polki.jpeg"
                 alt="Craftsmanship at The House of KC"
                 className="relative z-10 w-full h-72 sm:h-96 lg:h-[520px] object-cover transition duration-500 group-hover:scale-[1.02]"
               />
